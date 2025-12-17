@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PulseBoard Dashboard 🚀
 
-## Getting Started
+A modern SaaS-style dashboard built with **Next.js (App Router)** and **Tailwind CSS**.
 
-First, run the development server:
+## ✨ Features
+- Authentication (Login with API & cookies)
+- Protected dashboard routes
+- Responsive layout (Sidebar + Navbar)
+- Analytics dashboard with stat cards
+- Users management table
+  - Search
+  - Sortable columns
+  - Pagination
+- API routes using Next.js (`/api/login`, `/api/users`)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧰 Tech Stack
+- Next.js 14 (App Router)
+- React
+- Tailwind CSS
+- TypeScript
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔐 Demo Credentials
+Email: admin@test.com
+Password: 123456
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# PulseBoard – داشبورد تحلیلی SaaS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+PulseBoard یک داشبورد مدرن و واکنش‌گرا برای مدیریت و تحلیل داده‌هاست که با **Next.js** و **Tailwind CSS** توسعه داده شده است.  
+این پروژه با هدف نمایش مهارت‌های **Front-end / Full-stack** و ساخت یک داشبورد حرفه‌ای مشابه محصولات SaaS واقعی ساخته شده است.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ ویژگی‌ها
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔐 سیستم احراز هویت ساده (Login / Register)
+- 📊 داشبورد تحلیلی حرفه‌ای
+  - کارت‌های آماری (Users, Growth, Alerts)
+  - چیدمان Grid ریسپانسیو
+- 👥 جدول کاربران پیشرفته
+  - جستجو (Search)
+  - فیلتر
+  - صفحه‌بندی (Pagination)
+  - مرتب‌سازی ستون‌ها (Sortable Columns)
+- 🎨 طراحی مدرن با Tailwind CSS
+- ⚡ ساخته شده با App Router در Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ تکنولوژی‌ها
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Next.js (App Router)**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **API Routes (Mock / Local API)**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📁 ساختار پروژه
+
